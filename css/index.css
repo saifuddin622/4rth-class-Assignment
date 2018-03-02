@@ -1,0 +1,397 @@
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+/*========================================This is header start*/
+.header {
+    height: 100px;
+    background-color: #121B2A;
+}
+
+
+
+
+.logo {
+    height: 100px;
+    width: 30%;
+    float: left;
+}
+.logo img{
+    height: 94px;
+}
+
+.rheader {
+    float: right;
+    height: 100px;
+    width: 65%;
+}
+
+.signup {
+    height: 50px;
+    width: 100%;
+   
+}
+.clint{
+    height: 40px;
+    width: 24%;
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: 52.4%;
+    text-transform: uppercase;
+    color: black;
+    transition: 1s;
+    cursor: pointer;
+}
+.clint:hover{
+    color:;
+    background-color:;
+}
+.employee{
+    height: 40px;
+    width: 24%;
+    margin-left: -1%;
+    border: none;
+    background-color: #0078BD;
+    text-transform: uppercase;
+    transition: 1s;
+    cursor: pointer;
+    color: black;
+}
+.employee:hover{
+    color:;
+    background-color:;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    
+    margin-left: 4%;
+}
+.navbar ul{
+   
+}
+.navbar ul li{
+    float: left;
+    list-style: none;
+    float: left;
+    list-style: none;
+    padding: 13px 3.3%;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.navbar ul li a:hover{
+    color: #0277BD;
+    
+}
+
+/*========================================This is header end*/
+
+/*=====================================This is main_image start*/
+
+.main_image{
+    background-image:url("../images/man.png");
+    height: 550px;
+    width: 100%;
+    background-size: 100%;
+    color: gray;
+}
+.main_image h1{
+    font-size: 50px;
+    padding-top: 245px;
+}
+
+.main_image h2{
+    font-size: 50px;
+    color: #185FE4;
+}
+
+.main_image p{
+    font-size: 23px;
+}
+
+.main_image button{
+    width: 16%;
+    height: 47px;
+    margin-top: 29px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: gray;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.main_image button:hover{
+    color: white;
+    background-color: #0078BD;
+}
+/*==================================This is main_image  end*/
+/*==================================This is text start*/
+.text{
+    width: 100%;
+    height: 315px;
+    background-color: #121B2C;
+    color: white;
+}
+.text0{
+    padding-top: 40px;
+}
+.text0 div{
+    float: left;
+}
+/* this is text 1*/
+.text1{
+    width: 32%;
+    height: 300px;
+    clear: both;
+}
+.text111{
+    height: 255px;
+    border-right: 1px solid #1A2430;
+}
+.text11{
+    width: 20%;
+    float: left;
+    height: 100px;
+}
+.text11 img{
+    padding-top: 6px;
+}
+.text12{
+    width: 80%;
+    float: right;
+    height: 100px;
+}
+.text12 h3{
+    font-size: 30px;
+    padding: 6px 11%;
+}
+.text12 h3 a{
+    text-decoration: none;
+    color: #0077BB;
+}
+.p1{
+    padding-top: 5px;
+}
+
+/* this is text 2*/
+.text2{
+    width: 32.5%;
+    height: 350px;
+    margin-left: 1%;
+    
+}
+.text222{
+    height: 255px;
+    border-right: 1px solid #1A2430;
+}
+.text21{
+    width: 20%;
+    float: left;
+    height: 100px;
+}
+.text22{
+    width: 80%;
+    float: right;
+    height: 100px;
+}
+.text22 h3{
+    font-size: 30px;
+    padding: 6px 11%;
+}
+.text22 h3 a{
+    text-decoration: none;
+    color: #0077BB;
+    font-size: 28px;
+}
+.p2{
+    padding-top: 5px;
+}
+/* this is text 3*/
+.text3{
+    width: 32%;
+    height: 350px;
+    margin-left: 2%;
+}
+
+.text31{
+    width: 20%;
+    float: left;
+    height: 100px;
+}
+.text32{
+    width: 80%;
+    float: right;
+    height: 100px;
+}
+.text32 h3{
+    font-size: 30px;
+    padding: 43px 11%;
+}
+.text32 h3 a{
+    text-decoration: none;
+    color: #0077BB;
+}
+.p3{
+    padding-top: 5px;
+}
+/*==================================This is text  end*/
+/*==================================This is help start*/
+.help{
+    
+    min-height: 380px;
+    background-color: #040811;
+    color: white;
+}
+
+.help0 div{
+    float: left;
+}
+.help0{
+    width: 100%;
+}
+/*this is help 1*/
+.help1{
+    width: 30%;
+   
+}
+.help1 h1{
+    
+}
+.help1 h1 a{
+    color: #0075B8;
+    text-decoration: none;
+}
+.help1 p{
+    padding-top: 8px;
+}
+.help1 h3{
+    padding-top: 19px;
+    font-size: 16px;
+}
+.help1 h2{
+    font-size: 16px;
+    padding-top: 6px;
+}
+
+/*this is help 2*/
+.help2{
+    width: 35%;
+    position: relative;
+}
+.help21{
+    background: #0C1019;
+padding: 14px 15px;
+}
+.help21 h1{
+    
+}
+.help21 a{
+    text-decoration: none;
+    color: #0075B8;
+}
+.help21  p{
+    padding-top: 8px;
+}
+.help22 {
+    background: #0C1019;
+height: 65px;
+width: 34px;
+position: absolute;
+bottom: 16px;
+right: 36px;
+transform: rotate(75deg);
+}
+.help2 p {
+    
+}
+/*this is help 3*/
+.help3{
+    width: 30%;
+    margin-left: 5%;
+}
+.help31{
+    float: left;
+    width: 39%;
+}
+.help31 img{
+    
+}
+.help32{
+    float: right;
+    width: 60%;
+    padding-left: 1%;
+}
+.help32 h1{}
+.help32 a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #0075B8;
+}
+.help32 a img{}
+
+/*==================================This is help  end*/
+/*==================================This is footer start*/
+.footer{
+    height: 125px;
+    background-color: #121B2C;
+}
+.links{
+    width: 60%;
+    float: left;
+    height: 50px;
+}
+.links ul{
+    
+}
+.linkbar{
+    width: 100%;
+    padding-top: 20px;
+}
+.links ul li{
+    float: left;
+    list-style: none;
+}
+.links ul li:last-child a {
+    border-right: none;
+}
+.links ul li a{
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    padding-right: 17px;
+    border-right: 2px solid white;
+    padding-left: 10px;
+    transition: 1s;
+}
+.links ul li a:hover{
+    color: #0075B8;
+}
+.lastp{
+    width: 100%;
+    clear: both;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+}
+
+
+/* this is logos*/
+.logos{
+    width: 38%;
+    float: right;
+}
+.logos img{
+    float: left;
+}
+
+/*==================================This is footer  end*/
